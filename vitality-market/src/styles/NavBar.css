@@ -1,0 +1,46 @@
+.iconBar{
+    background-color: #EED9C4;
+    box-shadow: 10px 5px 5px #88b37896 ;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    top: 0;
+    width: 97%;
+}
+.aboutUs,.test,.contact,.search,.cart,.account{
+    color:#828282;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+.aboutUs .icon, .test .icon, .contact .icon, .search .icon, .cart .icon, .account .icon {
+    font-size: 35px;
+    color: #828282;
+}
+.aboutUs p, .test p, .contact p, .search p, .cart p, .account p {
+    margin: 5px 0 0 0;
+    font-size: 18px; 
+    color: #828282;
+    text-decoration: none; 
+}
+.title{
+    color: #88B378;
+    font-size: xx-large;
+    text-align: center;
+}
+.subContainer{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.subtitle{
+    margin: 0 20px;
+    font-size: 20px;
+    color: #88B378;
+    text-shadow: 2px 2px 5px rgb(62, 212, 120);
+}
