@@ -10,19 +10,19 @@ function NavBar(){
      return(
      <>     
         <section className='iconBar'>
-            <Link to="/vitality-market/src/page/AboutUs.js" className='aboutUs'>
+            <Link to="/vitality-market/AboutUs" className='aboutUs'>
                 <FontAwesomeIcon icon={faChessQueen} className='icon' />
                 <br/>
                 <p>About Us</p>
            </Link>
            
-           <Link to="/vitality-market/src/page/Testimonial.js" className='test'>
+           <Link to="/vitality-market/Testimonial" className='test'>
                 <FontAwesomeIcon icon={faPencil} className='icon'/>
                 <br/>
                 <p>Testimonial</p>
            </Link>
 
-           <Link to="/vitality-market/src/page/Contact.js" className='contact'>
+           <Link to="/vitality-market/Contact" className='contact'>
                 <FontAwesomeIcon icon={faComment} className='icon'/>
                 <br/>
                 <p>Contact Us</p>
@@ -36,13 +36,13 @@ function NavBar(){
                 <p>Search</p>
            </Link>
 
-           <Link to="/vitality-market/src/page/Cart.js" className='cart'>
+           <Link to="/vitality-market/Cart.js" className='cart'>
                 <FontAwesomeIcon icon={faBasketShopping} className='icon'/>
                 <br/>
                 <p>Cart</p>
            </Link>
 
-           <Link to="/vitality-market/src/page/Account.js" className='account'>
+           <Link to="/vitality-market/Account.js" className='account'>
                 <FontAwesomeIcon icon={faCircleUser} className='icon'/>
                 <br/>
                 <p>Account</p>
@@ -57,7 +57,7 @@ function NavBar(){
         </div>
         </>
      )
-}
+} 
 
 export default NavBar;
 
