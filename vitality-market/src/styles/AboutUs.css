@@ -1,0 +1,13 @@
+.vitalitym{ 
+    background-color:tansparent #88b37896;
+    box-shadow:#828282
+
+}
+
+#image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
