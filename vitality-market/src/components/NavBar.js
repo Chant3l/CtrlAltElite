@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import '../styles/NavBar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChessQueen, faComment, faCircleUser} from '@fortawesome/free-regular-svg-icons'
-import { faPencil, faSpa, faBasketShopping, faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons'
+import { faSpa, faBasketShopping, faMagnifyingGlass, faShop} from '@fortawesome/free-solid-svg-icons'
 
 
 function NavBar(){
@@ -16,10 +16,10 @@ function NavBar(){
                 <p>About Us</p>
            </Link>
            
-           <Link to="/vitality-market/Testimonial" className='test'>
-                <FontAwesomeIcon icon={faPencil} className='icon'/>
+           <Link to="/vitality-market/Products" className='shop'>
+                <FontAwesomeIcon icon={faShop} className='icon'/>
                 <br/>
-                <p>Testimonial</p>
+                <p>Shop</p>
            </Link>
 
            <Link to="/vitality-market/Contact" className='contact'>
@@ -28,7 +28,9 @@ function NavBar(){
                 <p>Contact Us</p>
            </Link>
 
-           <h1 className='title'>VITALITY <FontAwesomeIcon icon={faSpa}/> MARKETPLACE</h1>
+           <Link to='/' className='title' >
+               <h1>VITALITY <FontAwesomeIcon icon={faSpa}/> MARKETPLACE</h1>
+           </Link>
 
            <Link to="" className='search'>
                 <FontAwesomeIcon icon={faMagnifyingGlass} className='icon'/>
@@ -36,13 +38,14 @@ function NavBar(){
                 <p>Search</p>
            </Link>
 
-           <Link to="/vitality-market/Cart.js" className='cart'>
+           <Link to="/vitality-market/Cart" className='cart'>
                 <FontAwesomeIcon icon={faBasketShopping} className='icon'/>
+                <span className='cartAdd'>0</span>
                 <br/>
                 <p>Cart</p>
            </Link>
 
-           <Link to="/vitality-market/Account.js" className='account'>
+           <Link to="/vitality-market/Account" className='account'>
                 <FontAwesomeIcon icon={faCircleUser} className='icon'/>
                 <br/>
                 <p>Account</p>
