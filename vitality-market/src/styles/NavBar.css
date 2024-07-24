@@ -8,8 +8,9 @@
     padding: 15px;
     top: 0;
     width: 97%;
+    text-decoration: none;
 }
-.aboutUs,.test,.contact,.search,.cart,.account{
+.aboutUs,.shop,.contact,.search,.cart,.account{
     color:#828282;
     text-align: center;
     cursor: pointer;
@@ -18,11 +19,11 @@
     align-items: center;
     text-decoration: none;
 }
-.aboutUs .icon, .test .icon, .contact .icon, .search .icon, .cart .icon, .account .icon {
+.aboutUs .icon, .shop .icon, .contact .icon, .search .icon, .cart .icon, .account .icon {
     font-size: 35px;
     color: #828282;
 }
-.aboutUs p, .test p, .contact p, .search p, .cart p, .account p {
+.aboutUs p, .shop p, .contact p, .search p, .cart p, .account p {
     margin: 5px 0 0 0;
     font-size: 18px; 
     color: #828282;
@@ -32,6 +33,7 @@
     color: #88B378;
     font-size: xx-large;
     text-align: center;
+    text-decoration: none !important;
 }
 .subContainer{
     margin-top: 5px;
@@ -43,4 +45,14 @@
     font-size: 20px;
     color: #88B378;
     text-shadow: 2px 2px 5px rgb(62, 212, 120);
+}
+.cartAdd{
+    background-color: red;
+    color: whitesmoke;
+    padding: 0 3px;
+    font-weight: bold;
+    border-radius: 5px;
+    position: relative;
+    top: -40px;
+    right: -30px;
 }

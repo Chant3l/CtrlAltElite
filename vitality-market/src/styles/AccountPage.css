@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.loginForm{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../images/AccountImg.png');
+    background-position: center;
+    background-size: cover;
+}
+.wrap{
+    width: 420px;
+    background-color: #88b37896;
+    border-radius: 10px;
+    padding: 30px 40px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px #216408d0;
+}
+.wrap h1 {
+    font-size: 50px;
+    text-align: center;
+
+}
+.wrap .inputBox{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.inputBox input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: #EED9C4 solid;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #EED9C4;
+    padding: 20px 45px 20px 20px;
+}
+.inputBox .icon{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+.inputBox input::placeholder{
+    color: #EED9C4;
+}
+.wrap .rememberForgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+}
+.rememberForgot label input{
+    margin: 4px;
+}
+.rememberForgot a{
+    color: #EED9C4;
+    text-decoration: none;
+}
+.rememberForgot a:hover{
+    text-decoration: underline;
+}
+.wrap button{
+    width: 100%;
+    height: 45px;
+    background-color: #EED9C4;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #e2b181ee;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+}
+.wrap .register{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register a{
+    color: #EED9C4;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register a:hover{
+    text-decoration: underline;
+}

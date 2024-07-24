@@ -1,8 +1,12 @@
 import React from 'react'
+import '../styles/AccountPage.css'
+import LoginForm from '../components/LoginForm'
 
 const Account = () => {
   return (
-    <div>Account</div>
+    <div className='loginForm'>
+      <LoginForm/>
+    </div>
   )
 }
 
