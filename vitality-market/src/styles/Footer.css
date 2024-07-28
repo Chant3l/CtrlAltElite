@@ -1,0 +1,17 @@
+.footer-body{
+    background-image: url('../images/FooterImg.webp');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.footer-social{
+    background-color: #88b37863;
+    border-radius: 30px;
+    margin: 20px;
+}
+.footer-icon{
+    font-size: 35px;
+    color: #828282;
+    padding: 30px;
+}

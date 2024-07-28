@@ -39,8 +39,8 @@ function NavBar(){
            </Link>
 
            <Link to="/vitality-market/Cart" className='cart'>
-                <FontAwesomeIcon icon={faBasketShopping} className='icon'/>
                 <span className='cartAdd'>0</span>
+                <FontAwesomeIcon icon={faBasketShopping} className='icon'/>
                 <br/>
                 <p>Cart</p>
            </Link>

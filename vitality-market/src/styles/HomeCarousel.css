@@ -1,10 +1,27 @@
 .photo{
   width: 300px;
   height: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .carousel-container{
   height: 55vh;
 }
 .react-multi-carousel-track{
   height: 100%;
+}
+.prd-description, .price{
+  text-align: center;
+  font-size: 15px;
+}
+.carousel-btn{
+  width: 70%;
+    height: 45px;
+    background: #EED9C4;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(178, 209, 37, 0.623);
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 14%;
 }
