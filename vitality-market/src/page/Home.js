@@ -2,6 +2,8 @@ import React from 'react'
 import HomeCarousel from '../components/HomeCarousel'
 import MainImg from '../images/MainImg.png'
 import '../styles/HomePage.css'
+import PopUp from '../components/PopUp'
+import Footer from '../components/Footer'
 
 const Home = () => {
 
@@ -17,6 +19,7 @@ const Home = () => {
           </p>
         </section>
         <HomeCarousel/>
+        <PopUp/>
     </>
   )}
   

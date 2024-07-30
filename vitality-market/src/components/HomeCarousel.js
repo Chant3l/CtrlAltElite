@@ -1,7 +1,10 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import HomeImg from '../images/HomeImg.png';
+import Oil from '../images/Nutriment Blue Oil .jpg'
+import Creme from '../images/green-hemp-oil-sq.jpg'
+import Mask from '../images/Dermaplane_peptide_mask.jpg.jpeg'
+import Lotion from '../images/VitalitySkinCareProductsphotosbyKristinaPearlPhotographyLakeTappsWA-1624-2-scaled.jpg'
 import '../styles/HomeCarousel.css';
 
 const HomeCarousel = () => {
@@ -12,27 +15,27 @@ const HomeCarousel = () => {
 
   const products = [
     {
-      imgSrc: HomeImg,
+      imgSrc: Lotion,
       imgAlt: 'lotionProduct',
       description: 'Organic Sun Glow Body Lotion - 16oz w/ Travel Size',
       price: '$32.99',
     },
     {
-      imgSrc: HomeImg,
-      imgAlt: 'detoxTeas',
-      description: 'Herbal & Detox Teas - 8oz Variety Packs (3 Packs)',
+      imgSrc: Creme,
+      imgAlt: 'bodyCreme',
+      description: 'Herbal Skin Creme - 8oz Variety Packs (3 Packs)',
       price: '$10.98',
     },
     {
-      imgSrc: HomeImg,
+      imgSrc: Oil,
       imgAlt: 'oils',
       description: 'Essential Oils - 4oz',
       price: '$8.98',
     },
     {
-      imgSrc: HomeImg,
-      imgAlt: 'supplements',
-      description: 'Organic Supplements - 30 day supply',
+      imgSrc: Mask,
+      imgAlt: 'faceMask',
+      description: 'Organic Face Mask - 30 day supply',
       price: '$24.98',
     },
   ];
@@ -62,9 +65,9 @@ const HomeCarousel = () => {
         {products.map((product, index) => (
           <div key={index} className="gridImg1">
             <img src={product.imgSrc} alt={product.imgAlt} className="photo" />
-            <p>{product.description}</p>
+            <p className='prd-description'>{product.description}</p>
             <p className="price">{product.price}</p>
-            <button onClick={() => handleAddToCart(product)}>Add to Cart</button>
+            <button onClick={() => handleAddToCart(product)} className='carousel-btn'>Add to Cart</button>
           </div>
         ))}
       </Carousel>

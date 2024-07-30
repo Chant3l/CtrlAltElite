@@ -8,6 +8,7 @@ import { Route, Routes } from 'react-router-dom';
 import Products from './page/Products';
 import Cart from './page/Cart'
 import Account from './page/Account'
+import Footer from './components/Footer';
 
 function App() {
     return (
@@ -21,7 +22,7 @@ function App() {
           <Route path='/vitality-market/Cart' element={<Cart/>}></Route>
           <Route path='/vitality-market/Account' element={<Account/>}></Route>
         </Routes>  
-        
+        <Footer/>
       </> 
     );
 }
